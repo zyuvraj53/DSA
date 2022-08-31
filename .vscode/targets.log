@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Aug 05 22:55:29 2022
+# Make data base, printed on Wed Aug 31 08:28:30 2022
 
 # Variables
 
@@ -55,7 +56,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 VSCODE_CWD = C:\Users\Yuvraj\Desktop
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python\Python391\Scripts\;C:\Python\Python391\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuvraj\AppData\Local\atom\bin;C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuvraj\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\MinGW\bin;C:\Program Files (x86)\Vim\vim82;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;C:\Users\Yuvraj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Notepad++;C:\tools\neovim\Neovim\bin;C:\Users\Yuvraj\AppData\Roaming\cabal\bin;C:\tools\ghc-9.2.2\bin;C:\tools\msys64;
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python\Python391\Scripts\;C:\Python\Python391\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Graphviz\bin;C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuvraj\AppData\Local\atom\bin;C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuvraj\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\MinGW\bin;C:\Program Files (x86)\Vim\vim82;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;C:\Users\Yuvraj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Notepad++;C:\tools\neovim\Neovim\bin;C:\Users\Yuvraj\AppData\Roaming\cabal\bin;C:\tools\ghc-9.2.2\bin;C:\tools\msys64;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -79,7 +80,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9124_EXGSXSLRZIHXIBMJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5568_UZFIWADARHKYNVAD
 # environment
 COMPUTERNAME = COMPUTATORIUMRE
 # environment
@@ -97,9 +98,9 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Yuvraj\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
+VSCODE_CODE_CACHE_PATH = C:\Users\Yuvraj\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
@@ -149,7 +150,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\543c3a070f7212a1c0305822d3c80e24-1.70.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\543c3a070f7212a1c0305822d3c80e24-1.70.2-main-sock
 # environment
 HOMEPATH = \Users\Yuvraj
 # environment
@@ -207,7 +208,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 9124
+VSCODE_PID = 5568
 # environment
 USERDOMAIN_ROAMINGPROFILE = COMPUTATORIUMRE
 # variable set hash-table stats:
@@ -223,23 +224,23 @@ USERDOMAIN_ROAMINGPROFILE = COMPUTATORIUMRE
 # C:\Program Files\Java\jdk-16.0.1\bin (key C:/Program Files/Java/jdk-16.0.1/bin, mtime 1625935255): 123 files, no impossibilities.
 # C:\Program Files (x86)\Notepad++ (key C:/Program Files (x86)/Notepad++, mtime 1640462914): 19 files, no impossibilities.
 # C:\Python\Python391\ (key C:/Python/Python391/, mtime 1650528429): 34 files, no impossibilities.
-# C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps (key C:/Users/Yuvraj/AppData/Local/Microsoft/WindowsApps, mtime 1659593027): 38 files, no impossibilities.
+# C:\Users\Yuvraj\AppData\Local\Microsoft\WindowsApps (key C:/Users/Yuvraj/AppData/Local/Microsoft/WindowsApps, mtime 1661486107): 38 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1582737660): 5 files, no impossibilities.
 # C:\Python\Python391\Scripts\ (key C:/Python/Python391/Scripts/, mtime 1654149578): 58 files, no impossibilities.
-# C:\Users\Yuvraj\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Yuvraj/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1659636901): 4 files, no impossibilities.
+# C:\Users\Yuvraj\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Yuvraj/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1661027043): 4 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1619018548): 30 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1657864371): 153 files, no impossibilities.
-# . (key c:/Users/Yuvraj/Desktop/DSA, mtime 1659720329): 8 files, no impossibilities.
+# . (key c:/Users/Yuvraj/Desktop/DSA, mtime 1661289163): 11 files, no impossibilities.
 # C:\Program Files (x86)\Vim\vim82 (key C:/Program Files (x86)/Vim/vim82, mtime 1629993482): 55 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1623373211): 8 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1659640991): 145 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1582737578): 10 files, no impossibilities.
 # C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1654626734): 7 files, no impossibilities.
-# C:\WINDOWS (key C:/WINDOWS, mtime 1659320602): 129 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1660576690): 129 files, no impossibilities.
 # C:\Program Files\heroku\bin: could not be stat'd.
 # C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1650470573): 16 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1659320602): 129 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1660576690): 129 files, no impossibilities.
 # C:\Users\Yuvraj\AppData\Local\atom\bin: could not be stat'd.
 # C:\tools\msys64 (key C:/tools/msys64, mtime 1650470733): 38 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657864371): 153 files, no impossibilities.
@@ -248,15 +249,16 @@ USERDOMAIN_ROAMINGPROFILE = COMPUTATORIUMRE
 # C:\Users\Yuvraj\AppData\Roaming\cabal\bin: could not be stat'd.
 # C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1620456590): 11 files, no impossibilities.
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1619018548): 30 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1659688601): 2903 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1661825842): 2903 files, no impossibilities.
 # C:\Program Files\MongoDB\Server\4.4\bin: could not be stat'd.
-# C:\Users\Yuvraj\AppData\Roaming\npm (key C:/Users/Yuvraj/AppData/Roaming/npm, mtime 1641572122): 30 files, no impossibilities.
+# C:\Users\Yuvraj\AppData\Roaming\npm (key C:/Users/Yuvraj/AppData/Roaming/npm, mtime 1661488747): 33 files, no impossibilities.
+# C:\Program Files\Graphviz\bin (key C:/Program Files/Graphviz/bin, mtime 1660953743): 65 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin: could not be stat'd.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1659688601): 2903 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1661825842): 2903 files, no impossibilities.
 # C:\tools\neovim\Neovim\bin (key C:/tools/neovim/Neovim/bin, mtime 1650470662): 41 files, no impossibilities.
 
-# 7140 files, no impossibilities in 36 directories.
+# 7211 files, no impossibilities in 37 directories.
 
 # Implicit Rules
 
@@ -312,15 +314,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 8 (4) / strings = 3878 / storage = 58543 B / avg = 15 B
-# current buf: size = 8174 B / used = 1424 B / count = 95 / avg = 14 B
-# other used: total = 50369 B / count = 3783 / avg = 13 B
-# other free: total = 99 B / max = 23 B / min = 6 B / avg = 14 B
+# strcache buffers: 8 (4) / strings = 3940 / storage = 59302 B / avg = 15 B
+# current buf: size = 8174 B / used = 2211 B / count = 147 / avg = 15 B
+# other used: total = 51128 B / count = 3793 / avg = 13 B
+# other free: total = 127 B / max = 46 B / min = 4 B / avg = 18 B
 
-# strcache performance: lookups = 7184 / hit rate = 46%
+# strcache performance: lookups = 7256 / hit rate = 45%
 # hash-table stats:
-# Load=3878/8192=47%, Rehash=0, Collisions=2566/7184=36%
-# Finished Make data base on Fri Aug 05 22:55:29 2022
+# Load=3940/8192=48%, Rehash=0, Collisions=2626/7256=36%
+# Finished Make data base on Wed Aug 31 08:28:30 2022
 
  
 make.exe: *** No rule to make target 'all'.  Stop.
