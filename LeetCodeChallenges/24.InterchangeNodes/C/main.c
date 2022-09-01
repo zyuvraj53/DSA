@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Defining a node
+// Defining a node
 typedef struct LinkedListNode {
   int val;
   struct LinkedListNode *next;
@@ -9,44 +9,45 @@ typedef struct LinkedListNode {
 
 void insert_at_end(int, LinkedListNode **);
 LinkedListNode *interchange(LinkedListNode *);
-LinkedListNode *change_last(int, LinkedListNode **);
 void print(LinkedListNode *, int);
 
 int main() {
   LinkedListNode *LinkedList = NULL;
   insert_at_end(1, &LinkedList);
   insert_at_end(2, &LinkedList);
-  insert_at_end(8, &LinkedList);
+  // insert_at_end(8, &LinkedList);
   print(LinkedList, 1);
 
-  // LinkedList = interchange(LinkedList);
-  // print(LinkedList, 2);
+  LinkedList = interchange(LinkedList);
+  print(LinkedList, 2);
 
   return 0;
 }
 
-LinkedListNode *interchange(LinkedListNode *head){
+LinkedListNode *interchange(LinkedListNode *head) {
   LinkedListNode *p1 = head;
   LinkedListNode *p2 = head->next;
 
-  if(head == NULL || head->next == NULL)
+  if (head == NULL || head->next == NULL)
     return head;
 
-  head = p2; 
-  while(p1 != NULL || p2 != NULL){
-    LinkedListNode *temp = p2->next;
-    p1->next = temp;
+  LinkedListNode *new_head = p2;
+  while (p1 != NULL && p2 != NULL) {
+    p1->next = p2->next;
     p2->next = p1;
 
-    printf("%d\n", p1); 
+    LinkedListNode *tempChanger = p1;
+    p1 = p2;
+    p2 = tempChanger;
 
     p1 = p1->next;
+    if (p1 != NULL && p1->next != NULL)
+      p1 = p1->next;
     p2 = p2->next;
-    printf("%d\n", p1); 
-    puts("in the loop");
-  return head;
+    if (p2 != NULL && p2->next != NULL)
+      p2 = p2->next;
   }
-  puts("outside the loop");
+  return new_head;
 }
 
 void insert_at_end(int value, LinkedListNode **head) {
