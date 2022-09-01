@@ -32,6 +32,8 @@ LinkedListNode *interchange(LinkedListNode *head) {
     return head;
 
   LinkedListNode *new_head = p2;
+
+  LinkedListNode *last_ptr = head;
   while (p1 != NULL && p2 != NULL) {
     p1->next = p2->next;
     p2->next = p1;
